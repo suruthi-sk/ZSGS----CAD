@@ -27,7 +27,7 @@ public class Operations {
 
             switch(choice) {
                 case 1:
-                    Tea tea = new Tea(20, true, 10, 30, true);
+                    BeverageMachine tea = new Tea(20, true, 10, 30, true);
 
                     tea.display();
                     tea.prepareDrink();
